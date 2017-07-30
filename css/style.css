@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* imagen de landing*/
+
+.max-container{
+	max-width: 100%;
+	padding: 0 2em;
+	margin:  0 auto;
+}
+.mvp{
+	height: 100vh;
+	background-image: url("")
+	background-size:100% 100%;
+	background-color: #545561;
+	margin-top:-20px;
+}
+
+
+
+
+/* redes sociales -> Unete*/
+
+.transicion {
+	transition: .3s;
+}
+.escala:hover {
+  transform: scale(1.1);
+}
+
+/* prox eventos*/
+
+
+.post {
+  font-family: sans-serif;
+
+  text-align: center;
+  transition: .2s;
+  overflow: hidden;
+  height: 800px;
+
+}
+
+
+.post:hover {
+  background: gray;
+}
+
+.imgc, p {
+  transition: .8s;
+}
+.post .imgc {
+  transform: translateY(-400px);
+}
+
+.post:hover img {
+  transform: scale(1.0);
+}
+
+.post p {
+  transform: translateY(800px);
+}
+
+.post:hover p {
+  transform: translateY(25px);
+}
+
+
+
+
